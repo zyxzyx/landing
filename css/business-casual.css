@@ -7,12 +7,15 @@
 body {
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
     /*background: url('../img/bg.jpg') no-repeat center center fixed;*/
-    background-color: #2b1514;
-background-image: url('../img/dark-wood.png');
+    /*background-color: #2b1514;
+background-image: url('../img/dark-wood.png');*/
     /*-webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;*/
+    background-color: #686868;
+background-image: url("../img/black-linen.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
 h1,
@@ -176,12 +179,18 @@ footer p {
         line-height: normal;
     }
 
+    .navbar-nav>li {
+        float: none;
+        display:inline-block;
+    }
+
     .navbar-nav {
         display: table;
         float: none;
         margin: 0 auto;
         table-layout: fixed;
         font-size: 1.25em;
+        white-space: nowrap;
     }
 }
 
