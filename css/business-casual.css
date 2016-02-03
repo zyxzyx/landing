@@ -13,7 +13,7 @@ background-image: url('../img/dark-wood.png');*/
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;*/
-    background-color: #686868;
+    background-color: #f8f8f8;
 background-image: url("../img/black-linen.png");
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
